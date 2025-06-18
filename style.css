@@ -1,0 +1,67 @@
+body{
+    background-color: #1b1b1b;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    letter-spacing: 1px;
+    margin: 40px;
+    scroll-behavior: smooth;
+}
+.barraInicio{
+    background-color: #000000ea;
+    padding: 20px;
+    border-bottom: solid 1px #FFFFFF;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: left;
+}
+.botoninicio{
+    width: 120px;
+    border-right: solid 1px #FFFFFF;
+}
+.logojuego{
+    width: 120px;
+    object-fit: contain;
+    padding-left: 10px;
+}
+
+.container{
+  margin-top: 100px;  
+  position: fixed;
+  width: 750px;                       
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container2{
+    background-color: #000000;
+    margin-top: 200px;
+    margin-left: 900px;
+    padding: 50px;
+    height: 120vh;
+    border: solid 1px #FFFFFF;
+    display: flex;
+    flex-direction: column;
+  
+
+   
+}
+.bloqueImagen {
+  display: grid;
+  flex-direction: column;
+  background-color: bisque;
+  padding-right: 0;
+
+}
+
+.imagenMuestra {
+  width: 22rem;
+  object-fit: contain;
+  border: 1px solid #fff;
+  right: 0;
+}
