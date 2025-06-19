@@ -33,7 +33,11 @@ body {
     object-fit: contain;
     padding-left: 10px;
 }
-
+h1{
+  display: flex;
+  justify-content: center;
+  padding-top:1rem ;
+}
 .container {
     margin: 120px auto 0 auto;
     max-width: 90%;
